@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# Streamlit cache
+.streamlit/
+
+# Data files (optionally ignore models and large datasets)
+# Uncomment if you do not want to commit raw data or models
+data/*.pkl
+data/*.zip
+data/*.tar.gz
+
+# OS-specific
+.DS_Store
+Thumbs.db
