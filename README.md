@@ -1,10 +1,14 @@
 # Spam Email Detection (Finite Language Automata + ML)
 
-Project: A compact spam-email detection project combining rule-based finite-language automata (FLA) pattern matching with classical machine learning (scikit-learn). The repo includes preprocessing, feature extraction from pattern matches, training utilities, a saved model, and a small Streamlit UI for interactive detection.
+## Quick Description
+
+This project detects spam emails using Finite Language Automata (FLA) pattern matching combined with machine learning. It analyzes email text for 47 common spam phrases (like "free," "click," "win"), extracts features, and trains a classifier (Logistic Regression or Random Forest). Includes a Streamlit web UI for real-time detection, preprocessing pipeline, and unit tests. Built with Python, scikit-learn, pandas.
 
 ## About
 
 This repository implements a hybrid spam detection system: a set of regex-based patterns (an automata-like rule set) extracts interpretable binary features from emails, and a classical supervised ML pipeline (Logistic Regression / Random Forest) learns to classify messages given those features. The approach emphasizes explainability (which patterns matched) alongside a statistical model for generalization.
+
+**Note:** This project uses **FLA (Finite Language Automata) + Classical ML** (Logistic Regression, Random Forest), NOT Markov Chain or BERT models. The focus is on lightweight, interpretable spam detection suitable for resource-constrained environments.
 
 ## Problem
 
