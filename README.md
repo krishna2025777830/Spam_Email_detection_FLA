@@ -149,9 +149,4 @@ git push origin main
 
 ---
 
-If you want, I can:
-- create the `README.md` (done), `.gitignore` (done), and optionally `.gitattributes` for LFS, and a GitHub Actions workflow.
-- generate a `LICENSE` file (MIT/Apache/BSD) if you want to open-source it.
-- run the exact `git` and `gh` commands here if you give me consent and your GitHub repo details or a personal access token (not recommended to paste tokens here). 
 
-Tell me what next: create a GitHub repo for you (I'll provide commands), add a LICENSE, or create CI workflow.
